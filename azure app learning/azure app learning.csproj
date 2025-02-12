@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_learning</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/90402b86-bd72-4588-8d7b-882f77ec873c/resourceGroups/az-app-learning/providers/microsoft.insights/components/az-app-learning</ApplicationInsightsResourceId>
+    <UserSecretsId>f1692366-cd9c-41e8-a86f-1102c9b1d5d0</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
